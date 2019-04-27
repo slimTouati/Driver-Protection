@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#5db761</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryLight">#D1C4E9</color>
+    <color name="bg_screen1">#673AB7</color>
+    <color name="bg_screen2">#4CAF50</color>
+    <color name="bg_screen3">#ffa219</color>
+    <color name="bg_screen4">#f65d81</color>
+    <color name="red">#B00020</color>
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#764dbe</color>
+    <color name="dot_dark_screen2">#5db761</color>
+    <color name="dot_dark_screen3">#ffa219</color>
+    <color name="dot_dark_screen4">#f65d81</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#a388d3</color>
+    <color name="dot_light_screen2">#a5d7a7</color>
+    <color name="dot_light_screen3">#ffcb7f</color>
+    <color name="dot_light_screen4">#faa5b9</color>
+    <color name="myTextColor">#AFAFAF</color>
+    <!--profile colors -->
+    <color name="address">#2f7092</color>
+    <color name="followers">#0D5D98</color>
+    <color name="headings">#3797CF</color>
+    <color name="solidCircle">#AAFFFFFF</color>
+    <color name="circleBorder">#50FFFFFF</color>
+    <color name="gradEnd">#3C0E66</color>
+    <color name="gradStart">#F01ED1E9</color>
+    <color name="followersBg">#65DCE5</color>
+    <color name="followingBg">#49BEFF</color>
+    <color name="grey">#E5E5E5</color>
+
+    <color name="white">#FFFFFF</color>
+</resources>

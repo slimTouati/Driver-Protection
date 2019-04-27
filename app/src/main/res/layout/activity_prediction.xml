@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraintprediction"
+    android:background="@drawable/predictionbg"
+    tools:context=".PredictionActivity">
+
+    <com.github.anastr.speedviewlib.AwesomeSpeedometer
+        android:id="@+id/awesomeSpeedometer"
+        android:layout_width="205dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="124dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tempval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="480dp"
+        android:fontFamily="@font/digital_seven"
+        android:text="24.25°C"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/predictionvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="296dp"
+        android:fontFamily="@font/digital_seven"
+        android:text="25.7 %"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
+<!--
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/imagesnew"
+    tools:context=".PredictionActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <com.github.anastr.speedviewlib.AwesomeSpeedometer
+        android:id="@+id/awesomeSpeedometer"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="140dp"
+            >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/hourin"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@font/carter_one"
+                android:gravity="center_horizontal"
+                android:text="Hour interval : " />
+
+            <TextView
+                android:id="@+id/hourinterval"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/carter_one"
+                android:gravity="center_horizontal"
+                android:text="12H - 13H"
+                android:textColor="#6bc7f6" />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+                <TextView
+                    android:id="@+id/tempin"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="@font/carter_one"
+                    android:gravity="center_horizontal"
+                    android:text="Temperature : " />
+
+                <TextView
+                    android:id="@+id/tempval"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/carter_one"
+                    android:gravity="center_horizontal"
+                    android:text="24.25°C"
+                    android:textColor="#6bc7f6" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+                <TextView
+                    android:id="@+id/cityte"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="@font/carter_one"
+                    android:gravity="center_horizontal"
+                    android:text="City : " />
+
+                <TextView
+                    android:id="@+id/city"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/carter_one"
+                    android:gravity="center_horizontal"
+                    android:text="Ariana,Tunisia"
+                    android:textColor="#6bc7f6" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:id="@+id/summa"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/carter_one"
+            android:gravity="center_horizontal"
+            android:text="Weather summary : " />
+
+        <TextView
+            android:id="@+id/weathersummary"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/carter_one"
+            android:gravity="center_horizontal"
+            android:text="cloudy until night , there is a 51.2% possibility that it rains."
+            android:textColor="#6bc7f6" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/predtxt"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:fontFamily="@font/carter_one"
+        android:gravity="center_horizontal"
+        android:text="Prediction" />
+    <TextView
+        android:id="@+id/predictionvalue"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45dp"
+        android:fontFamily="@font/carter_one"
+        android:gravity="center_horizontal"
+        android:textColor="#6bc7f6"
+        android:text="45,3 %" />
+</LinearLayout>
+-->

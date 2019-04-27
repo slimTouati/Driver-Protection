@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DriverProtection</string>
+    <!-- shared prefs -->
+
+    <string name="prefs">user</string>
+    <string name="pref_notif">user</string>
+    <string name="user_id">user_id</string>
+    <string name="token">token</string>
+    <string name="user_name">first_name</string>
+    <string name="user_lastname">last_name</string>
+    <string name="user_mail">email</string>
+    <string name="user_password">password</string>
+    <string name="user_role">user_role</string>
+    <string name="user_photo">photo</string>
+    <string name="isconnected">isconnectedw</string>
+    <string-array name="Brands">
+        <item>Renault</item>
+        <item>Mercedes</item>
+        <item>Audi</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
